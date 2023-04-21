@@ -8,7 +8,6 @@
 </head>
 <body>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
 <br>
 <br>
 <br>
@@ -29,20 +28,17 @@
                 <label  for="LastName" >Apellido</label>
                 <input type="text"  id="LastName" name="LastName" placeholder="Ingrese su apellido" required pattern="[A-Za-z ]{2,40}">
             </div>
-
             <div class="mb-3">
                 <label for="email" >Gmail</label>
                 <input type="email" id="email" name="email"  placeholder="Ingrese su gmail" required pattern="[A-Za-z ]{60}">
             </div>
-
             <div class="mb-3">
                 <label for="Password">Contraseña</label>
                 <input type="password"  id="Password" name="Password" placeholder="Ingrese su contraseña" required pattern="^(?=.*\d)(?=.*[\u0021-\u002b\u003c-\u0040])(?=.*[A-Z])(?=.*[a-z])\S{8,16}$">
             </div>
             <br>
             <br>
-            <center>   <button type="submit" class="btn btn-primary">Enviar</button></center>
-
+            <center><button type="submit" class="btn btn-primary">Enviar</button></center>
         </form>
     </center>
 </section>
