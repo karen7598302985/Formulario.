@@ -13,7 +13,7 @@
 <br>
 <br>
 <header>
-    <center><h1><%= "Formulario" %></h1></center>
+    <center><h1><"Formulario" ></h1></center>
 </header>
 <nav></nav>
 <br>
