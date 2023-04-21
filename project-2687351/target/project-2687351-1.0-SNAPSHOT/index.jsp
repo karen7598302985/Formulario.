@@ -30,7 +30,7 @@
             </div>
             <div class="mb-3">
                 <label for="email" >Gmail</label>
-                <input type="email" id="email" name="email"  placeholder="Ingrese su gmail" required pattern="[A-Za-z ]{60}">
+                <input type="email" id="email" name="email"  placeholder="Ingrese su gmail" required pattern="{60}">
             </div>
             <div class="mb-3">
                 <label for="Password">Contraseña</label>
